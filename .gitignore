@@ -1,3 +1,4 @@
 *.swp
 *.cpython*.so                                                                                                                                                                                                      
+build/*
 
