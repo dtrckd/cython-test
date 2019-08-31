@@ -14,6 +14,11 @@ cpdef np.ndarray test1(np.ndarray[INT_t, ndim=2] a,  int b):
 
     #b = np.linalg.inv(a)
     #print(b)
+    cdef int f = 7
+    cdef int[f] x
+
+    for i in range(7):
+        print(x[i])
 
     cdef int pos = 0
     #print('coucou')

@@ -2,3 +2,6 @@
 *.cpython*.so                                                                                                                                                                                                      
 build/*
 
+test.c
+test.html
+
